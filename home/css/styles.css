@@ -2,8 +2,17 @@ body {
   background: #19161b;
 }
 .container {
-  max-width: 1218px;
+  max-width: 1280px;
   margin: 0 auto;
+}g
+.subtitle-line{
+display: flex;
+align-items: center;
+}
+.line{
+    margin-left: 16px;
+    border-bottom: 1px solid #fff;
+width: 48px;
 }
 .header {
   padding-top: 30px;
@@ -121,22 +130,14 @@ opacity: 0.6;
 .about-box{
     display: flex;
 }
-.about-subtitle{
+.subtitle{
     font-family: var(--second-family);
 font-weight: 400;
 font-size: 16px;
 line-height: 150%;
 color: #ffb577;
 }
-.about-line{
-display: flex;
-align-items: center;
-}
-.line{
-    margin-left: 16px;
-    border-bottom: 1px solid #fff;
-width: 48px;
-}
+
 .about-title{
     font-family: var(--second-family);
 font-weight: 700;
@@ -210,4 +211,213 @@ background: #ffb577;
     position: absolute;
     top: 0;
     left: 409px;
+}
+.serving-section{
+    margin-top: 160px;
+
+}
+
+.subtitle{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #ffb577;
+}
+.serving-qa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 34px;
+}
+.serving-title{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 48px;
+line-height: 121%;
+color: #fff;
+opacity: 0.87;
+width: 660px;
+}
+.serving-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+color: #b8b8b8;
+width: 450px;
+}
+.serving-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.16);
+    margin-top: 61px;
+    padding-top: 68px;
+    padding-bottom: 58px;
+     gap: 128px;
+
+}
+
+
+.serving-item-title{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 32px;
+line-height: 150%;
+color: #fff;
+margin-top: 24px;
+}
+.serving-item-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+color: #b8b8b8;
+width: 250px;
+margin-top: 12px;
+}
+.section-menu{
+    margin-top: 160px;
+}
+.section-menu-discover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+.menu-title{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 48px;
+line-height: 121%;
+color: #fff;
+width: 390px;
+}
+.menu-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+color: #b8b8b8;
+width: 405px;
+}
+.menu-subtext{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+color: #c4e4ea;
+margin-top: 32px;
+}
+.menu-list{
+    margin-top: 83px;
+    display: flex;
+    flex-wrap: wrap;
+   gap: 30px;
+}
+.menu-item-description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 18px;
+    padding-left: 32px;
+    padding-right: 29px;
+    background: #1f1d21;
+}
+.menu-item-title{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+color: #fff;
+opacity: 0.87;
+}
+.menu-item-price{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 160%;
+color: #fff;
+opacity: 0.87;
+}
+.menu-btn{
+    display: block;
+    margin: 0 auto;
+    border: none;
+   width: 164px;
+   margin-top: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #2e2d33;
+background: #ffb577;
+}
+.section-video{
+    margin-top: 160px
+}
+.video-box{
+    display: flex;
+
+    background: #1f1d21;
+}
+.video-box-left{
+
+}
+.video-title{
+ font-family: var(--third-family);
+font-weight: 400;
+font-size: 72px;
+line-height: 128%;
+color: #fff;
+padding-top: 80px;
+}
+.video-text{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 32px;
+line-height: 150%;
+color: #fff;
+opacity: 0.87;
+width: 390px;
+margin-top: 43px;
+}
+.creator{
+    display: flex;
+    align-items: center;
+    margin-top: 72px;
+}
+.creator-name{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #fff;
+opacity: 0.87;
+}
+
+.creator-location{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 12px;
+line-height: 133%;
+color: #fff;
+opacity: 0.6;
+margin-top: 4px;
+
+}
+.creator-img{
+    margin-left: 255px;
+}
+.creator-line{
+ border-bottom: 2px solid #fff;
+width: 407px;
+height: 0px;
+opacity: 0.24;
+margin-top: 22px;
+margin-bottom: 84px;
 }
