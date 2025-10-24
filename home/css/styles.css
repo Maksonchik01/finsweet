@@ -8,6 +8,7 @@ body {
 .container {
   max-width: 1280px;
   margin: 0 auto;
+  border: 1px solid red;
 }
 .subtitle-line {
   display: flex;
@@ -32,6 +33,12 @@ body {
 .header-nav {
   display: flex;
   align-items: center;
+   justify-content: space-between;
+}
+.header-box{
+  display: flex;
+ align-items: center;
+ gap: 50px;
 }
 .header-logo-link,
 .footer-logo {
@@ -64,6 +71,9 @@ body {
   color: #ffc492;
   text-decoration: none;
   margin-left: auto;
+}
+.header-project-box{
+  
 }
 .arrow {
   color: #fff;
@@ -138,6 +148,7 @@ body {
 .hero-box-right {
 }
 .hero-img {
+  width: 100%;
 }
 .about-section {
   margin-top: 235px;
@@ -161,7 +172,7 @@ body {
   font-size: 48px;
   line-height: 121%;
   color: #fff;
-  width: 550px;
+  max-width: 550px;
   margin-top: 24px;
 }
 .about-text {
@@ -170,7 +181,7 @@ body {
   font-size: 16px;
   line-height: 175%;
   color: #b8b8b8;
-  width: 500px;
+  max-width: 500px;
   margin-top: 32px;
 }
 .about-list {
@@ -226,8 +237,11 @@ body {
 .about-img-dark {
   display: block;
   margin-top: 83px;
+  width: 100%;
 }
 .about-img {
+  display: block;
+  width: 100%;
 }
 .serving-section {
   margin-top: 160px;
